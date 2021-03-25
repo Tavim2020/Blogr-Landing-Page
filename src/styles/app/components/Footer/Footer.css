@@ -1,0 +1,8 @@
+footer{
+    width: 100vw;
+    height: 28vw;
+    background-color: var(--footer-background);
+    border-top-right-radius: 7vw;
+    display: flex;
+    align-items: flex-start;
+}

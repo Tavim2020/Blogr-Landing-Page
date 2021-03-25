@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --background-body: #FAFAFA;
+    --white: #fff;
+    --dark: #1D1C23;
+    --text-dark-color: #313034;
+    --button-cadastro: #FF7C85;
+    --color-text-h1: #FEF0EE;
+    --color-text-h3: #FFBEBD;
+    --button-background-color: #FF6462;
+    --circle-border-color: #E2E2E2;
+    --circle-two-border-color: #B6B6B6;
+    --circle-center-color: #EAEAEC;
+    --secoundary-text-color: #244465;
+    --tree-text-color: #203A50;
+    --phone-container-background: #3B3E5F;
+    --footer-background: #24242C;
+    --menu-footer-color: #C8C8D0;
+}

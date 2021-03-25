@@ -1,0 +1,64 @@
+.Product{
+    margin-top: 7.4vw;
+    margin-left: 13.4vw;
+    width: 7vw;
+}
+
+.Product h5{
+    color: var(--white);
+    font-size: 1.2vw;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2vw;
+    font-weight: 800;
+}
+
+.Product p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--menu-footer-color);
+    font-size: 1.2vw;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 0.8vw;
+    cursor: pointer;
+}
+
+
+
+
+.Product p span{
+    height: 0.16vw;
+    background-color: var(--menu-footer-color);
+    display: block;
+    margin: -0.2vw;
+}
+
+
+.Product p:nth-child(2):hover > span{
+    margin-left: 3%;
+    width: 65%;
+}
+
+.Product p:nth-child(3):hover > span{
+    margin-left: 3%;
+    width: 45%;
+}
+
+.Product p:nth-child(4):hover > span{
+    margin-left: 3%;
+    width: 85%;
+}
+
+
+
+.Product p:nth-child(5):hover > span{
+    margin-left: 3%;
+    width: 65%;
+}
+
+
+.Product p:nth-child(6):hover > span{
+    margin-left: 3%;
+    width: 90%;
+}

@@ -1,0 +1,47 @@
+.buttons{
+    margin: 0 auto;
+    width: 40%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.buttons button{
+    width: 11.5vw;
+    height: 4vw; 
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    border-top-left-radius: 2.4vw;
+    border-top-right-radius: 2.4vw;
+    border-bottom-left-radius: 2.4vw;
+    border-bottom-right-radius: 2.4vw;
+    cursor: pointer;
+    transition: background 0.7s;
+}
+
+.buttons button:nth-child(1){
+    border: none;
+    margin-right: 1vw;
+    background-color: var(--white);
+    color: var(--button-cadastro);
+}
+
+.buttons button:nth-child(1):hover{
+    background-color: var(--button-cadastro);
+    color: var(--white);
+}
+
+.buttons button:nth-child(2){
+    background-color: var(--button-background-color);
+    color: var(--white);
+    border: 0.08vw solid var(--white);
+}
+
+.buttons button:nth-child(2):hover{
+    border: none;
+    background-color: var(--white);
+    color: var(--button-cadastro);
+}

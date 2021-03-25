@@ -1,0 +1,52 @@
+.Connect{
+    margin-top: 7.4vw;
+    margin-left: 13.4vw;
+    width: 7vw;
+}
+
+.Connect h5{
+    color: var(--white);
+    font-size: 1.2vw;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2vw;
+    font-weight: 800;
+}
+
+.Connect p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--menu-footer-color);
+    font-size: 1.2vw;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 0.8vw;
+    cursor: pointer;
+}
+
+
+
+
+.Connect p span{
+    height: 0.16vw;
+    background-color: var(--menu-footer-color);
+    display: block;
+    margin: -0.2vw;
+}
+
+
+.Connect p:nth-child(2):hover > span{
+    margin-left: 3%;
+    width: 55%;
+}
+
+.Connect p:nth-child(3):hover > span{
+    margin-left: 3%;
+    width: 75%;
+}
+
+.Connect p:nth-child(4):hover > span{
+    margin-left: 3%;
+    width: 60%;
+}
+

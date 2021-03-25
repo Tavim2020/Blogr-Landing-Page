@@ -1,0 +1,6 @@
+.DesktopContainer{
+    width: 100vw;
+    height: 62vw;
+    display: flex;
+    align-items: center;
+}

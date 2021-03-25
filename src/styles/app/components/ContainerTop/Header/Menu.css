@@ -1,0 +1,76 @@
+nav > ul{
+    width: 32vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1.6vw;
+}
+
+.menu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 1vw;
+}
+
+.showMenu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.showMenu img{
+    width: 1vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+
+.showMenu li{
+    color: var(--white);
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.showMenu li:hover{
+    border-bottom: 0.16vw solid var(--white);
+}
+
+
+.menuList{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 200%;
+    left: -13%;
+    background-color: var(--white);
+    padding: 2.4vw 4.7vw 2.4vw 1.3vw;
+    border-radius: 0.7vw;
+    z-index: 100;
+}
+
+.menuList ul li{
+    color: var(--text-dark-color);
+    line-height: 2vw;
+    font-weight: 300; 
+    cursor: pointer;
+    font-size: 1.2vw;
+    transition: 0.3s; 
+}
+
+.menuList ul li:hover{
+    color: var(--dark);
+    font-weight: 600;
+}
+
+
+.activeMenu{
+    transform: rotateX(180deg);
+}

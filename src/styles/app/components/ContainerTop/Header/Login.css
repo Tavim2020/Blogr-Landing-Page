@@ -1,0 +1,41 @@
+.containerLogin{
+    width: 17vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    color: var(--white);
+    width: 38%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cadastro{
+    color: var(--button-cadastro);
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    width: 60%;
+    height: 100%;
+    margin-left: 2%;
+    border: none;
+    border-top-left-radius: 2.4vw;
+    border-top-right-radius: 2.4vw;
+    border-bottom-left-radius: 2.4vw;
+    border-bottom-right-radius: 2.4vw;
+    background-color: var(--white);
+    cursor: pointer;
+    transition: background 0.7s;
+}
+
+.cadastro:hover{
+    background-color: var(--button-cadastro);
+    color: var(--white);
+}

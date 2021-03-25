@@ -1,0 +1,10 @@
+.Phone{
+    top: -15%;
+    left: 4.2%;
+    position: absolute;
+    z-index: 10;
+}
+
+.Phone img{
+    width: 45vw
+}

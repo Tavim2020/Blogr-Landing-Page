@@ -1,0 +1,15 @@
+.backgroundImage{
+    width: 100vw;
+    height: 45vw;
+    border-bottom-left-radius: 7vw;
+    background: linear-gradient(to right, #FF886F 20%, #FF7E6B 30%, #FF7167 40%, #FF6563 50%, #FE575E 65%, #FF4F5A 75%, #FE4C5A 90%, #FF4457);
+    overflow: hidden;
+}
+
+.containerTop{
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 7vw;
+}

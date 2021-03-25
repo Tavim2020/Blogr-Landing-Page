@@ -1,0 +1,18 @@
+.containerTextAndButton{
+    margin-top: 4vw;
+    width: 100vw;
+    height: 36vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+}
+
+.containerTextAndButton img{
+    position: absolute;
+    width: 224vw;
+    top: -380%;
+    left: -30%;
+    pointer-events: none;
+}

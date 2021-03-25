@@ -1,0 +1,26 @@
+.ContainerOpenSimple{
+    margin-left: 4vw;
+    flex: 1;
+}
+
+.ContainerOpenSimple h3{
+    font-size: 1.8vw;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1.6vw;
+    color: var(--tree-text-color);
+    margin-top: 8vw;
+}
+
+.ContainerOpenSimple p{
+    font-size: 1.24vw;
+    width: 39vw;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    margin-bottom: 8vw;
+    color: var(--tree-text-color);
+}
+
+.ContainerOpenSimple p:nth-child(1){
+    
+}

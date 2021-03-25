@@ -1,0 +1,12 @@
+.Content{
+    width: 100vw;
+    height: 32vw;
+    background-color: var(--phone-container-background);
+    margin-top: -3%;
+    overflow: hidden;
+    border-bottom-left-radius: 7vw;
+    border-top-right-radius: 7vw;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
