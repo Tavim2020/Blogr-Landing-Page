@@ -36,3 +36,9 @@
     top: -42%;
     right: 10%;
 }
+
+.Image img{
+    margin: 0 auto;
+    width: 98vw;
+    margin-bottom: 10vw;
+}

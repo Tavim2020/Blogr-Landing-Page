@@ -27,7 +27,7 @@
 
 
 
-.Product p span{
+/* .Product p span{
     height: 0.16vw;
     background-color: var(--menu-footer-color);
     display: block;
@@ -61,4 +61,4 @@
 .Product p:nth-child(6):hover > span{
     margin-left: 3%;
     width: 90%;
-}
+} */

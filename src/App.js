@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './styles/app/components/ContainerTop/ContainerTop.css';
 import './styles/app/components/ContainerTwo/ContainerTwo.css';
 import Header from './components/Header/Header';
@@ -13,13 +13,17 @@ import ImageDesktop from './components/DesktopContainer/ImageDesktop';
 import ContainerOpenSimple from './components/DesktopContainer/ContainerOpenSimple';
 import './styles/app/components/DesktopContainer/DesktopContainer.css';
 import Footer from './components/Footer/Footer';
+import { GlobalContext } from './Context/GlobalContext';
+
+
 
 function App() {
-  const widthScreen = window.screen.width;
+  const { widthScreen } = useContext(GlobalContext)
+
   return (
       <main style={{ backgroundColor: '#FAFAFA', width: '100vw'}}>
 
-        <div className='backgroundImage' >
+        <div className='backgroundImage' style={widthScreen <= 980 ? {height: '135vw', borderBottomLeftRadius: '17vw'} : null} >
 
           <div className='containerTop' >
               <Header />
@@ -28,21 +32,22 @@ function App() {
 
         </div>
 
-          <section className='containerTwo' >
+          <section className='containerTwo' style={widthScreen <= 980 ? { height: '320vw'} : null} >
             
             <TitleDesigned />
             <TwoParagraphsAndImage />
 
           </section>
 
-          <section className='PhoneContainer'>
+          <section className='PhoneContainer' style={widthScreen <= 980 ? {height: '145vw'} : null }>
 
               <Phone />
               <Content />
 
           </section>
 
-          <section className='DesktopContainer'>
+          <section className='DesktopContainer' style={widthScreen <= 980 ? {height: '210vw', 
+          flexDirection: 'column'} : null } >
 
             <ImageDesktop />
             <ContainerOpenSimple />

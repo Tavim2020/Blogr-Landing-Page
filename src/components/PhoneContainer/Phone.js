@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useContext }from 'react'
+import { GlobalContext } from '../../Context/GlobalContext';
 import '../../styles/app/components/PhoneContainer/Phone.css';
 
 export const Phone = () => {
-    return (
-        <div class='Phone'>
 
-            <img src='images/phone.svg' alt='Phone'></img>
+    const { widthScreen } = useContext(GlobalContext);
+
+    return (
+        <div class='Phone' style={widthScreen <= 980 ? {top: '-30%'} : null}>
+
+            <img src='images/phone.svg' style={widthScreen <= 980 ? {width: '90vw'} : null} alt='Phone'></img>
             
         </div>
     )

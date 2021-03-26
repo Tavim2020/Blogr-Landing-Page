@@ -27,7 +27,7 @@
 
 
 
-.Company p span{
+/* .Company p span{
     height: 0.16vw;
     background-color: var(--menu-footer-color);
     display: block;
@@ -55,4 +55,4 @@
 .Company p:nth-child(5):hover > span{
     margin-left: 3%;
     width: 55%;
-}
+} */
