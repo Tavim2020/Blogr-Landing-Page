@@ -5,10 +5,8 @@ import { GlobalStorage } from './Context/GlobalContext';
 import './styles/Global.css';
 
 ReactDOM.render(
-  <React.StrictMode>
     <GlobalStorage>
     <App />
-    </GlobalStorage>
-  </React.StrictMode>,
+    </GlobalStorage>,
   document.getElementById('root')
 );
